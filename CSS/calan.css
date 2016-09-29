@@ -1,0 +1,31 @@
+.month-area {
+
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  min-height: 100px;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+.left-button {
+
+  background: transparent;
+  border-radius: 10px;
+  padding: 10px 40px;
+
+}
+.days {
+  font-size: 30px;
+  padding: 15px 30px;
+}
+
+.previous {
+  margin-top: 40px;
+  text-align: center;
+}
+.dates {
+  font-size: 30px;
+  padding: 15px 65px;
+  text-align: center;
+}
