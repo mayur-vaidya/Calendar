@@ -1,0 +1,48 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title> My Calandar </title>
+  <link rel="stylesheet" href="css/calan.css">
+  <script src="cal.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body onload="loadingFunc()">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="previous">
+          <button type="button" class="left-button" onclick="previous()"> Previous </button>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="month-area">
+          <p id="monthjs"></p>
+        </div>
+      </div>
+      <div class="col-md-2">
+        <div class="previous">
+          <button type="button" class="left-button" onclick="next()"> Next </button>
+        </div>
+     </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <table align="center">
+    <tr>
+      <td class="days"></td>
+      <td class="days"></td>
+      <td class="days"></td>
+      <td class="days"></td>
+      <td class="days"></td>
+      <td class="days"></td>
+      <td class="days"></td>
+    </tr>
+  </table>
+</div>
+<div>
+  <p id="dates"></p>
+</div>
+</body>
+</html>
